@@ -18,6 +18,10 @@ else:
 
     day = weather_data.json()['days'][0]['datetime']
 
-    print(f"weather for {day} is {weather_description}")
+    temp = weather_data.json()['days'][0]['temp']
 
+    print(f"The day is {day} \nweather is described as: {weather_description}")
 
+    print(f"Temperature is: {temp}°C")
+    
+    
