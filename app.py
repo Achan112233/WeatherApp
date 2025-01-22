@@ -25,4 +25,3 @@ else:
 
     print(f"Temperature is: {temp}°C")
     
-    
