@@ -24,4 +24,7 @@ else:
     print(f"The day is {day} \nweather is described as: {weather_description}")
 
     print(f"Temperature is: {temp}°C")
+
+    if (temp > 90): 
+        print(f"it is too cold")
     
